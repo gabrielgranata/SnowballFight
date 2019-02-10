@@ -23,6 +23,14 @@ public class SnowBall : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        if (collision.tag == "Player1")
+        {
+            FindObjectOfType<GameManager>().HurtP1();
+        } else if (collision.tag == "Player2")
+        {
+            FindObjectOfType<GameManager>().HurtP2();
+        }
         Instantiate(snowBallEffect, transform.position, transform.rotation);
         Destroy(gameObject);
     }
