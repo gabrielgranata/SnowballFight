@@ -3718,8 +3718,8 @@ RectTransform:
   m_Children:
   - {fileID: 834648165}
   - {fileID: 1292208713}
-  - {fileID: 1441812789}
   - {fileID: 1187631824}
+  - {fileID: 1441812789}
   - {fileID: 2146434061}
   m_Father: {fileID: 1836388350}
   m_RootOrder: 1
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 1187631826}
   - component: {fileID: 1187631825}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3937,7 +3937,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1151619512}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5154,7 +5154,7 @@ GameObject:
   - component: {fileID: 1441812791}
   - component: {fileID: 1441812790}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Image (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5172,7 +5172,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1151619512}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6035,11 +6035,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 1153273350}
-  player2: {fileID: 1151619509}
+  player2: {fileID: 345101137}
   P1Life: 5
   P2Life: 5
-  p1Wins: {fileID: 384727065}
-  p2Wins: {fileID: 1760427347}
+  p1Wins: {fileID: 330767720}
+  p2Wins: {fileID: 215849670}
   p1Sticks:
   - {fileID: 760464352}
   - {fileID: 1002526882}
@@ -6048,8 +6048,8 @@ MonoBehaviour:
   - {fileID: 103882489}
   p2Sticks:
   - {fileID: 2146434060}
-  - {fileID: 1187631823}
   - {fileID: 1441812788}
+  - {fileID: 1187631823}
   - {fileID: 1292208712}
   - {fileID: 834648164}
 --- !u!114 &1836388347
